@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu';
+    --bg-prim-color: rgb(7, 7, 7);
+    --bg-sec-color: #fff;
+    
+}
+
+.container{
+    background-color: var(--bg-sec-color);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu{
+    height: 4rem;
+    width: 100%;
+    background-color:var(--bg-prim-color) ;
+}
+
+main{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.records-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem;
+    width: auto;
+    height: 100vh;
+    background-color: rgb(248, 234, 211);
+    height: auto;
+}
+
+.record{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(250, 250, 250);
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.rec-cover{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.rec-name{
+    color: #555;
+    font-size: .9rem;
+    margin: 0;
+    margin-top: .5rem;
+    text-align: start;
+    width: 80%;
+}
+
+.rec-info{
+    color: #555;
+    width: 80%;
+    font-size: .75rem;
+    text-align: start;
+    margin: 0;
+    margin-top: .2rem;
+}
+
+aside{
+    width: 25%;
+}
